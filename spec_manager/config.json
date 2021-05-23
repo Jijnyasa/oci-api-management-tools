@@ -1,0 +1,22 @@
+{
+    "LBAAS" : {
+        "alias" : "Lbaas",
+        "services" : {
+            "PROV" : {
+                "alias" : "Provisioner",
+                "address" : "http://localhost:11000",
+                "spec" : "spec_manager/specs/provisioner.json"
+            },
+            "API" : {
+                "alias" : "Api Server",
+                "address" : "",
+                "spec" : ""
+            },
+            "PAWS" : {
+                "alias" : "PAWS",
+                "address" : "http://localhost:24000",
+                "spec" : "spec_manager/specs/paws.json"
+            }
+        }
+    }
+}
