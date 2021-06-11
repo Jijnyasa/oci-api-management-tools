@@ -23,4 +23,21 @@
 - Most of the resources have a api-spec which has the specifications for all endpoints including its return point and params.
 - This can be automated very easily with some intelligent logics such as grouping endpoints, abbreviating them.
 
+## How this looks
 
+<img width="1440" alt="Screenshot 2020-07-09 at 5 07 01 PM" src="https://user-images.githubusercontent.com/46473694/121732026-5111c880-cb0f-11eb-9e4a-b98cfe65c1a1.png">
+
+###Setup Tools
+
+1. tar -xvf oci-api-management-tool
+2. cd oci-api-management-tools
+3. virtualenv -p /usr/bin/python2.7 env
+4. source env/bin/activate
+5. pip install -r requirements.txt
+
+###Generate Bookamark
+
+1. ipython
+2. from bookmark_manager.bookmark_handler import BookmarkHandler
+3. a=BookmarkHandler()
+4. a.do_magic()
