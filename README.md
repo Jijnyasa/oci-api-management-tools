@@ -27,7 +27,7 @@
 
 <img width="1440" alt="Screenshot 2020-07-09 at 5 07 01 PM" src="https://user-images.githubusercontent.com/46473694/121732026-5111c880-cb0f-11eb-9e4a-b98cfe65c1a1.png">
 
-###Setup Tools
+### Setup Tools
 
 1. tar -xvf oci-api-management-tool
 2. cd oci-api-management-tools
@@ -35,7 +35,7 @@
 4. source env/bin/activate
 5. pip install -r requirements.txt
 
-###Generate Bookamark
+### Generate Bookamark
 
 1. ipython
 2. from bookmark_manager.bookmark_handler import BookmarkHandler
